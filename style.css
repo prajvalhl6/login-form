@@ -1,0 +1,62 @@
+a.nav-link {
+  width: 7rem;
+}
+
+.container {
+  padding-top: 3rem;
+  width: 60%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.login {
+  width: 30%;
+}
+
+.btn {
+  display: block;
+  margin: 0 auto;
+}
+
+.signup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-width {
+  width: 49%;
+}
+
+.jumbotron {
+  text-align: center;
+  background-color: #f8f9fa;
+  padding: 1rem 0;
+  border-radius: 1rem;
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+  text-decoration: underline dashed;
+}
+
+.about-content {
+  margin-top: 1rem;
+}
+
+.about-content::first-letter {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+@media (max-width: 700px) {
+  a.nav-link {
+    margin-left: 1rem;
+  }
+
+  .container,
+  .login {
+    width: 100%;
+  }
+}
